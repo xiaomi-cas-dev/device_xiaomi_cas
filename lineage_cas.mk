@@ -13,21 +13,18 @@ $(call inherit-product, device/xiaomi/cas/device.mk)
 
 # Inherit some common Lineage stuff.
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
-RISING_BUILDTYPE := COMMUNITY
-RISING_MAINTAINER := Waddah
+MIST_BUILD_TYPE := UNOFFICIAL
+MISTOS_MAINTAINER := Waddah
 TARGET_ENABLE_BLUR := true
 TARGET_HAS_UDFPS := true
+EXTRA_UDFPS_ANIMATIONS := true
 TARGET_ENABLE_BLUR := true
 TARGET_BOOT_ANIMATION_RES := 1080
 WITH_LINEAGE_CHARGER := true
 WITH_GMS := true
-TARGET_CORE_GMS := true
+TARGET_PREBUILT_LAWNCHAIR_LAUNCHER := true
 TARGET_EXCLUDES_AUDIOFX := true
 WITH_SU := true
-
-PRODUCT_BUILD_PROP_OVERRIDES += \
-    RisingChipset="Snapdragon 865" \
-    RisingMaintainer="Waddah"
 
 PRODUCT_NAME := lineage_cas
 PRODUCT_DEVICE := cas
