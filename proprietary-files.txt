@@ -102,7 +102,7 @@ vendor/lib/libaudiocloudctrl.so
 vendor/lib/libaudioconfigstore.so
 vendor/lib/libaudioroute_ext.so
 vendor/lib/libmmhardware.so
-vendor/lib/libqtigef.so
+#vendor/lib/libqtigef.so
 vendor/lib/libresampler.so
 vendor/lib/libssrec.so
 vendor/lib/vendor.qti.hardware.audiohalext@1.0.so
@@ -117,7 +117,7 @@ vendor/lib64/libaudiocloudctrl.so
 vendor/lib64/libaudioconfigstore.so
 vendor/lib64/libaudioroute_ext.so
 vendor/lib64/libmmhardware.so
-vendor/lib64/libqtigef.so
+#vendor/lib64/libqtigef.so
 vendor/lib64/libresampler.so
 vendor/lib64/libssrec.so
 vendor/lib64/vendor.qti.hardware.audiohalext@1.0.so
@@ -158,10 +158,10 @@ system/lib/libldacBT_abr.so
 system/lib/libldacBT_enc.so
 system/lib64/libldacBT_abr.so
 system/lib64/libldacBT_enc.so
-system_ext/lib/liblhdc.so
-system_ext/lib/liblhdcBT_enc.so
-system_ext/lib64/liblhdc.so
-system_ext/lib64/liblhdcBT_enc.so
+system/lib/liblhdc.so
+system/lib/liblhdcBT_enc.so
+system/lib64/liblhdc.so
+system/lib64/liblhdcBT_enc.so
 vendor/bin/hw/android.hardware.bluetooth@1.0-service-qti
 vendor/etc/init/android.hardware.bluetooth@1.0-service-qti.rc
 vendor/lib/btaudio_offload_if.so
@@ -174,7 +174,7 @@ vendor/lib/libbtnv.so
 vendor/lib/vendor.qti.hardware.bluetooth_sar@1.0.so
 vendor/lib/vendor.qti.hardware.bluetooth_sar@1.1.so
 vendor/lib/vendor.qti.hardware.btconfigstore@2.0.so
-vendor/lib64/android.hardware.audio.sounddose-vendor-impl.so
+#vendor/lib64/android.hardware.audio.sounddose-vendor-impl.so
 vendor/lib64/btaudio_offload_if.so
 vendor/lib64/hw/android.hardware.bluetooth@1.0-impl-qti.so
 vendor/lib64/hw/vendor.qti.hardware.bluetooth_sar@1.1-impl.so
@@ -321,7 +321,7 @@ vendor/lib64/com.qti.feature2.swmf.so
 vendor/lib64/com.qti.feature2.tintless.so
 vendor/lib64/hw/camera.qcom.so
 vendor/lib64/hw/com.qti.chi.override.so
-vendor/lib64/lib-watermarkshim.so|eeb387c170ec3a723e12902d05cce1e7158d8509
+#vendor/lib64/lib-watermarkshim.so|eeb387c170ec3a723e12902d05cce1e7158d8509
 vendor/lib64/libHalSuperSensorServer.so
 vendor/lib64/libI420colorconvert.so
 vendor/lib64/libMIAIHDRhvx_interface.so
@@ -810,9 +810,9 @@ vendor/lib64/libsdmextension.so
 vendor/lib64/libtinyxml2_1.so
 
 # Dolby - from OnePlus 9R OOS 11.2.8.8
--system_ext/priv-app/DaxUI/DaxUI.apk;OVERRIDES=AudioFX,MusicFX|f2123124ddef928c7c490e2a83b0af5466a0df7e
+#-system_ext/priv-app/DaxUI/DaxUI.apk;OVERRIDES=AudioFX,MusicFX|f2123124ddef928c7c490e2a83b0af5466a0df7e
 -system_ext/priv-app/daxService/daxService.apk|0d1f71d0a58d909c05adacf5239503588b9d39ea
-system/lib64/vendor.dolby.hardware.dms@2.0.so|0a1cb972160890b07baf3a3e624e9ec1273befed
+#system/lib64/vendor.dolby.hardware.dms@2.0.so|0a1cb972160890b07baf3a3e624e9ec1273befed
 vendor/bin/hw/vendor.dolby.hardware.dms@2.0-service|84247a3563b362e97dacaa79d4845c1292a92f13
 vendor/etc/init/vendor.dolby.hardware.dms@2.0-service.rc|29296ebfe89b2697fec573be73cc3757fd97bed6
 vendor/lib/libdapparamstorage.so|6c488c6bc88abe13c6fd689124475526c1cf41b8
@@ -849,7 +849,7 @@ system_ext/etc/permissions/com.qti.dpmframework.xml
 system_ext/etc/permissions/dpmapi.xml
 system_ext/framework/com.qti.dpmframework.jar
 system_ext/framework/dpmapi.jar
-system_ext/lib64/com.qualcomm.qti.dpm.api@1.0.so
+#system_ext/lib64/com.qualcomm.qti.dpm.api@1.0.so
 system_ext/lib64/libdpmctmgr.so
 system_ext/lib64/libdpmfdmgr.so
 system_ext/lib64/libdpmframework.so
@@ -1514,7 +1514,7 @@ vendor/lib64/libloc_api_wds.so
 vendor/lib64/libloc_socket.so
 vendor/lib64/liblocationservice.so
 vendor/lib64/liblocationservice_glue.so
-vendor/lib64/liblocdiagiface.so
+#vendor/lib64/liblocdiagiface.so
 vendor/lib64/liblowi_client.so
 vendor/lib64/liblowi_wifihal.so
 vendor/lib64/libqcc_file_agent.so
@@ -1631,9 +1631,9 @@ vendor/lib/libnpu.so
 vendor/lib64/libnpu.so
 
 # Media
-system_ext/lib/libmmosal.so
+#system_ext/lib/libmmosal.so
 system_ext/lib/libmmparser_lite.so
-system_ext/lib64/libmmosal.so
+#system_ext/lib64/libmmosal.so
 system_ext/lib64/libmmparser_lite.so
 vendor/etc/seccomp_policy/codec2.vendor.base-arm.policy
 vendor/etc/seccomp_policy/codec2.vendor.ext-arm.policy
@@ -1957,7 +1957,7 @@ system_ext/lib64/lib-imsvtutils.so
 system_ext/lib64/libdiag_system.so
 system_ext/lib64/libimscamera_jni.so
 system_ext/lib64/libimsmedia_jni.so
-system_ext/lib64/vendor.qti.imsrtpservice@3.0.so
+#system_ext/lib64/vendor.qti.imsrtpservice@3.0.so
 system_ext/lib64/vendor.qti.imsrtpservice@3.1.so
 vendor/bin/ims_rtp_daemon
 vendor/bin/imsdatadaemon
@@ -1968,15 +1968,15 @@ vendor/etc/init/imsdatadaemon.rc
 vendor/etc/init/imsqmidaemon.rc
 vendor/etc/init/imsrcsd.rc
 vendor/etc/seccomp_policy/imsrtp.policy
-vendor/firmware/gfcas.b00
-vendor/firmware/gfcas.b01
-vendor/firmware/gfcas.b02
-vendor/firmware/gfcas.b03
-vendor/firmware/gfcas.b04
-vendor/firmware/gfcas.b05
-vendor/firmware/gfcas.b06
-vendor/firmware/gfcas.b07
-vendor/firmware/gfcas.mdt
+#vendor/firmware/gfcas.b00
+#vendor/firmware/gfcas.b01
+#vendor/firmware/gfcas.b02
+#vendor/firmware/gfcas.b03
+#vendor/firmware/gfcas.b04
+#vendor/firmware/gfcas.b05
+#vendor/firmware/gfcas.b06
+#vendor/firmware/gfcas.b07
+#vendor/firmware/gfcas.mdt
 vendor/lib64/com.qualcomm.qti.imscmservice@1.0.so
 vendor/lib64/com.qualcomm.qti.imscmservice@2.0.so
 vendor/lib64/com.qualcomm.qti.imscmservice@2.1.so
@@ -2201,7 +2201,7 @@ vendor/lib64/vendor.qti.hardware.soter@1.0.so
 system/lib/libstagefright_amrnb_common.so
 system/lib64/libstagefright_amrnb_common.so
 vendor/lib/libopus.so
-vendor/lib/libstagefright_amrnb_common.so
+#vendor/lib/libstagefright_amrnb_common.so
 vendor/lib/libstagefright_enc_common.so
 vendor/lib/libstagefright_flacdec.so
 vendor/lib/libstagefright_soft_aacdec.so
@@ -2338,7 +2338,7 @@ system_ext/lib/libwfduibcsink.so
 system_ext/lib/libwfduibcsinkinterface.so
 system_ext/lib/libwfduibcsrc.so
 system_ext/lib/libwfduibcsrcinterface.so
-system_ext/lib/vendor.qti.hardware.wifidisplaysession@1.0.so
+#system_ext/lib/vendor.qti.hardware.wifidisplaysession@1.0.so
 system_ext/lib64/android.hidl.base@1.0.so
 system_ext/lib64/com.qualcomm.qti.wifidisplayhal@1.0.so
 system_ext/lib64/libmmrtpdecoder.so
